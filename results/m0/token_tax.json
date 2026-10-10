@@ -1,0 +1,218 @@
+{
+ "tokenizer": "openai/whisper-large-v3",
+ "revision": "06f233fe06e710322aca913c1bc4249a0d71fce1",
+ "language_tokens": [
+  "af",
+  "am",
+  "ar",
+  "as",
+  "az",
+  "ba",
+  "be",
+  "bg",
+  "bn",
+  "bo",
+  "br",
+  "bs",
+  "ca",
+  "cs",
+  "cy",
+  "da",
+  "de",
+  "el",
+  "en",
+  "es",
+  "et",
+  "eu",
+  "fa",
+  "fi",
+  "fo",
+  "fr",
+  "gl",
+  "gu",
+  "ha",
+  "haw",
+  "he",
+  "hi",
+  "hr",
+  "ht",
+  "hu",
+  "hy",
+  "id",
+  "is",
+  "it",
+  "ja",
+  "jw",
+  "ka",
+  "kk",
+  "km",
+  "kn",
+  "ko",
+  "la",
+  "lb",
+  "ln",
+  "lo",
+  "lt",
+  "lv",
+  "mg",
+  "mi",
+  "mk",
+  "ml",
+  "mn",
+  "mr",
+  "ms",
+  "mt",
+  "my",
+  "ne",
+  "nl",
+  "nn",
+  "no",
+  "oc",
+  "pa",
+  "pl",
+  "ps",
+  "pt",
+  "ro",
+  "ru",
+  "sa",
+  "sd",
+  "si",
+  "sk",
+  "sl",
+  "sn",
+  "so",
+  "sq",
+  "sr",
+  "su",
+  "sv",
+  "sw",
+  "ta",
+  "te",
+  "tg",
+  "th",
+  "tk",
+  "tl",
+  "tr",
+  "tt",
+  "uk",
+  "ur",
+  "uz",
+  "vi",
+  "yi",
+  "yo",
+  "yue",
+  "zh"
+ ],
+ "flores_devtest": {
+  "eng_Latn": {
+   "fleurs": "en_us",
+   "whisper_language_token": true,
+   "tokens": 27991,
+   "tax": 1.0
+  },
+  "hin_Deva": {
+   "fleurs": "hi_in",
+   "whisper_language_token": true,
+   "tokens": 136599,
+   "tax": 4.88
+  },
+  "ben_Beng": {
+   "fleurs": "bn_in",
+   "whisper_language_token": true,
+   "tokens": 255601,
+   "tax": 9.13
+  },
+  "mar_Deva": {
+   "fleurs": "mr_in",
+   "whisper_language_token": true,
+   "tokens": 149359,
+   "tax": 5.34
+  },
+  "tel_Telu": {
+   "fleurs": "te_in",
+   "whisper_language_token": true,
+   "tokens": 240597,
+   "tax": 8.6
+  },
+  "tam_Taml": {
+   "fleurs": "ta_in",
+   "whisper_language_token": true,
+   "tokens": 133178,
+   "tax": 4.76
+  },
+  "guj_Gujr": {
+   "fleurs": "gu_in",
+   "whisper_language_token": true,
+   "tokens": 322426,
+   "tax": 11.52
+  },
+  "urd_Arab": {
+   "fleurs": "ur_pk",
+   "whisper_language_token": true,
+   "tokens": 77559,
+   "tax": 2.77
+  },
+  "kan_Knda": {
+   "fleurs": "kn_in",
+   "whisper_language_token": true,
+   "tokens": 228677,
+   "tax": 8.17
+  },
+  "ory_Orya": {
+   "fleurs": "or_in",
+   "whisper_language_token": false,
+   "tokens": 355250,
+   "tax": 12.69
+  },
+  "mal_Mlym": {
+   "fleurs": "ml_in",
+   "whisper_language_token": true,
+   "tokens": 318792,
+   "tax": 11.39
+  },
+  "pan_Guru": {
+   "fleurs": "pa_in",
+   "whisper_language_token": true,
+   "tokens": 258599,
+   "tax": 9.24
+  },
+  "asm_Beng": {
+   "fleurs": "as_in",
+   "whisper_language_token": true,
+   "tokens": 257077,
+   "tax": 9.18
+  },
+  "npi_Deva": {
+   "fleurs": "ne_np",
+   "whisper_language_token": true,
+   "tokens": 142593,
+   "tax": 5.09
+  },
+  "snd_Arab": {
+   "fleurs": "sd_in",
+   "whisper_language_token": true,
+   "tokens": 93743,
+   "tax": 3.35
+  }
+ },
+ "fleurs_test": {
+  "en_us": {
+   "utterances": 647,
+   "tokens_per_second": 2.86,
+   "max_tokens": 76,
+   "within_30s": 647,
+   "within_30s_over_window": 0,
+   "seconds_that_fill_window": 156.9,
+   "max_seconds": 29.3
+  },
+  "or_in": {
+   "utterances": 883,
+   "tokens_per_second": 29.78,
+   "max_tokens": 947,
+   "within_30s": 875,
+   "within_30s_over_window": 194,
+   "seconds_that_fill_window": 15.0,
+   "max_seconds": 36.8
+  }
+ }
+}
