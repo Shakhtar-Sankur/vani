@@ -75,3 +75,7 @@ python -m pytest -q tests
 FLEURS (CC BY 4.0) and FLORES-200 (CC BY-SA 4.0) download into `~/.cache/vani` (`VANI_CACHE`).
 Every model is pinned to a revision. Meta's MMS and Seamless are licensed for non-commercial
 use (CC BY-NC 4.0); vani only evaluates them.
+
+## License
+
+Apache-2.0. See [LICENSE](LICENSE).
